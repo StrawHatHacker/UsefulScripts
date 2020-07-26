@@ -1,10 +1,11 @@
 #!/bin/bash
 # Installs Zsh, Oh-My-Zsh, wget and git
+# Tested on Ubuntu 18
 
 # Description 
 echo -e "\e[1;31m ZSH Installer by StrawHatHacker \e[0m"
 printf "\n"
-echo "The installation is starting , please wait for atleast 2 to 3 minutes"
+echo "The installation is starting , please wait for at least 2 to 3 minutes"
 
 sleep 5
 

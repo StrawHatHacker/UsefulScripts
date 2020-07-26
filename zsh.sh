@@ -1,3 +1,4 @@
+#!/bin/bash
 # Installs Zsh, Oh-My-Zsh, wget and git
 
 echo Updating package list

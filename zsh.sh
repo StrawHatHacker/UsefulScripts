@@ -1,6 +1,6 @@
 #!/bin/bash
 # Installs Zsh, Oh-My-Zsh, wget and git
-# Tested on Ubuntu 18
+# Tested on Ubuntu 16.04, 18.04, 20.04
 
 # Description 
 echo -e "\e[1;31m ZSH Installer by StrawHatHacker \e[0m"

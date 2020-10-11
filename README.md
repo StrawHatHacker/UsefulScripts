@@ -1,5 +1,4 @@
 ## Scripts I made for personal use
-
 ## Contribute
 * If there is a problem or they don't work on a specific system, open an issue.
 * If you want to add a new script or improve an existing one open a pull request!
@@ -13,3 +12,6 @@ Not my fault if they break your machine <3
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [**oh-my-zsh.sh**](https://github.com/StrawHatHacker/UsefulScripts/blob/master/oh-my-zsh.sh) | ✔ | ✔ | ❔ | ❔ | ❔ | ❔ | ❔ |
 | [**mongoDB.sh**](https://github.com/StrawHatHacker/UsefulScripts/blob/master/mongoDB.sh) | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ |
+
+## Contributors
+* [Umair](https://umair9747.github.io/) - [![a](http://i.imgur.com/wWzX9uB.png)](https://twitter.com/0x9747) [![a](http://i.imgur.com/9I6NRUm.png)](https://github.com/umair9747) 

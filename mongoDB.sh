@@ -14,7 +14,7 @@ touch log.txt
 printf "\n" && printf "\n" >> log.txt
 echo Updating package list...
 echo "Update for package list" > log.txt
-sudo apt update >> log.txt
+sudo apt update 2>/dev/null
 
 # Imports public key
 printf "\n" && printf "\n" >> log.txt
@@ -48,8 +48,7 @@ sudo apt-get install -y mongodb-org >> log.txt
 sudo systemctl start mongod
 sudo systemctl enable mongod
 
-echo -e "\e[1;31m MongoDb has been successfully installed and enabled! \e[0m"
-
 clear 
+echo -e "\e[1;31m MongoDb has been successfully installed and enabled! \e[0m"
 
 exit 0

@@ -1,12 +1,13 @@
 #!/bin/bash
 # Installs Zsh, Oh-My-Zsh, wget and git
+
 # Tested on Ubuntu 16.04, 18.04, 20.04
 # Tested on Debian 9 & Debian 10
 
-# Description 
+# Description
 echo -e "\e[1;31m ZSH Installer by StrawHatHacker \e[0m"
 printf "\n"
-echo "The installation is starting , please wait for at least 2 to 3 minutes"
+echo "The installation Oh-My-Zsh is starting , please wait 2 to 3 minutes"
 
 sleep 5
 

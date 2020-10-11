@@ -48,7 +48,7 @@ elif [[ "$os_version" == "9.0" ]]; then
     echo "deb http://repo.mongodb.org/apt/debian stretch/mongodb-org/4.4 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
 
 elif [[ "$os_version" == "10.0" ]]; then
-    echo "Your system is Debian 8.0 Buster"
+    echo "Your system is Debian 10.0 Buster"
     echo "Installing gnupg"
     sudo apt-get install gnupg
     echo "Done"

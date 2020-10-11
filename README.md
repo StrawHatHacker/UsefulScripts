@@ -1,4 +1,3 @@
-## Scripts I made for personal use
 ## Contribute
 * If there is a problem or they don't work on a specific system, open an issue.
 * If you want to add a new script or improve an existing one open a pull request!

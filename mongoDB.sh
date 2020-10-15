@@ -1,5 +1,5 @@
 #!/bin/bash
-#DOES NOT WORK NOT TESTED
+# Installs mongoDB and enables it
 
 # Description
 echo -e "\e[1;31m MongoDB Installer by StrawHatHacker \e[0m"

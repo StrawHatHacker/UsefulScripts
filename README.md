@@ -7,7 +7,7 @@
 Not my fault if they break your machine <3
 
 ## Tests
-|Script|Ubuntu|Debian 9 & 10|CentOS 7 & 8|Linux Mint & LMDE 4|OpenSUSE Tumbleweed & Leap|Kali|Fedora 32|
+|Script|Ubuntu|Debian 9 & 10|CentOS 7 & 8|Linux Mint 20 & LMDE 4|OpenSUSE Tumbleweed & Leap 15.2|Kali 2020.3|Fedora 32|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [**oh-my-zsh.sh**](https://github.com/StrawHatHacker/UsefulScripts/blob/master/oh-my-zsh.sh) | ✔ | ✔ | ❔ | ❔ | ❔ | ❔ | ❔ |
 | [**mongoDB.sh**](https://github.com/StrawHatHacker/UsefulScripts/blob/master/mongoDB.sh) | ✔ | ✔ | ❔ | ❔ | ❔ | ❔ | ❔ |

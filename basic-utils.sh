@@ -2,7 +2,7 @@
 # Install git, bashtop, nodejs, pm2, ranger
 
 # Description
-echo -e "\e[1;31m MongoDB Installer by StrawHatHacker \e[0m"
+echo -e "\e[1;31m Basic Util Installer by StrawHatHacker \e[0m"
 printf "\n"
 echo "The installation is starting , please wait for 3 to 4 minutes for the installation to complete."
 
@@ -30,8 +30,12 @@ echo "Installation of bashtop" >> log.txt
 printf "\n" && printf "\n" >> log.txt
 sudo git clone https://github.com/aristocratos/bashtop.git 2>/dev/null
 cd bashtop
-sudo make install
+sudo make install >> log.txt
 cd ..
 sudo rm -R bashtop
+
+clear 
+
+echo -e "\e[1;31m Basic Utils have been successfully installed! \e[0m"
 
 exit 0

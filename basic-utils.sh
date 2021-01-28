@@ -1,6 +1,11 @@
 #!/bin/bash
 # Install git, bpytop, nodejs LTS, npm, pm2, ranger
 
+# if bpytop throws ERROR - required 'psutil', run the commands below
+# sudo pip3 install --upgrade pip 
+# sudo pip3 install -U setuptools 
+# sudo pip3 install psutil
+
 # Description
 echo -e "\e[1;31m Basic Util Installer by StrawHatHacker \e[0m"
 printf "\n"
@@ -31,10 +36,6 @@ printf "\n" && printf "\n" >>log.txt
 echo "deb http://packages.azlux.fr/debian/ buster main" | sudo tee /etc/apt/sources.list.d/azlux.list
 wget -qO - https://azlux.fr/repo.gpg.key | sudo apt-key add -
 sudo apt update >>log.txt
-# Installing required python packages
-sudo pip3 install --upgrade pip 2>/dev/null
-sudo pip3 install -U setuptools 2>/dev/null
-sudo pip3 install psutil 2>/dev/null
 sudo apt install bpytop -y 2>/dev/null
 
 # Installs node.js LTS

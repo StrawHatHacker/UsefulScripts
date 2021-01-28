@@ -32,8 +32,8 @@ echo "deb http://packages.azlux.fr/debian/ buster main" | sudo tee /etc/apt/sour
 wget -qO - https://azlux.fr/repo.gpg.key | sudo apt-key add -
 sudo apt update >>log.txt
 # Installing required python packages
-sudo pip3 install -U setuptools 2>/dev/null
 sudo pip3 install --upgrade pip 2>/dev/null
+sudo pip3 install -U setuptools 2>/dev/null
 sudo pip3 install psutil 2>/dev/null
 sudo apt install bpytop -y 2>/dev/null
 

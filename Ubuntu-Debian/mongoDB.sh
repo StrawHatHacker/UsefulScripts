@@ -28,8 +28,21 @@ os_version=`lsb_release -rs`
 
 echo Creating list file...
 
+# For Ubuntu versions
+if [[ "$os_version" == "20.04" ]]; then
+    echo "Your system is Ubuntu 20.04 Focal"
+    echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+
+elif [[ "$os_version" == "18.04" ]]; then
+    echo "Your system is Ubuntu 18.04 Bionic"
+    echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+
+elif [[ "$os_version" == "16.04" ]]; then
+    echo "Your system is Ubuntu 16.04 Xenial"
+    echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+
 # For Debian versions
-if [[ $(sed 's/\..*//' /etc/debian_version) == "9" ]]; then
+elif [[ $(sed 's/\..*//' /etc/debian_version) == "9" ]]; then
     echo "Your system is Debian 9.0 Stretch"
     echo "Installing gnupg"
     sudo apt-get install gnupg

@@ -1,5 +1,5 @@
 #!/bin/bash
-# Install git, bpytop, nodejs LTS, pm2, ranger
+# Install git, bpytop, nodejs LTS, npm, pm2, ranger
 
 # Description
 echo -e "\e[1;31m Basic Util Installer by StrawHatHacker \e[0m"

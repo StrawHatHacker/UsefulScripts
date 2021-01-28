@@ -28,6 +28,9 @@ echo Installing bpytop...
 printf "\n" >>log.txt
 echo "Installation of bashtop" >>log.txt
 printf "\n" && printf "\n" >>log.txt
+echo "deb http://packages.azlux.fr/debian/ buster main" | sudo tee /etc/apt/sources.list.d/azlux.list
+wget -qO - https://azlux.fr/repo.gpg.key | sudo apt-key add -
+sudo apt update >>log.txt
 sudo apt install bpytop -y 2>/dev/null
 
 # Installs node.js LTS
@@ -55,7 +58,7 @@ echo Installing ranger...
 printf "\n" >>log.txt
 echo "Installation of ranger" >>log.txt
 printf "\n" && printf "\n" >>log.txt
-sudo apt-get install ranger caca-utils highlight atool w3m poppler-utils mediainfo 2>/dev/null
+sudo apt-get install ranger caca-utils highlight atool w3m poppler-utils mediainfo -y 2>/dev/null
 
 clear
 

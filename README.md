@@ -7,10 +7,11 @@
 Not my fault if they break your machine <3
 
 ## Tests
-|Script|Ubuntu 20.04, 18.04|Debian 9 & 10|CentOS 7 & 8|Linux Mint 20 & LMDE 4|OpenSUSE Tumbleweed & Leap 15.2|Kali 2020.3|Fedora 32|
+|Script|Ubuntu 20.04, 18.04|Debian 10 & 9|CentOS 8 & 7|Linux Mint 20 & LMDE 4|OpenSUSE Tumbleweed & Leap 15.2|Kali 2020.3|Fedora 32|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| [**oh-my-zsh.sh**](https://github.com/StrawHatHacker/UsefulScripts/blob/master/oh-my-zsh.sh) | ✔ | ✔ | ❔ | ❔ | ❔ | ❔ | ❔ |
-| [**mongoDB.sh**](https://github.com/StrawHatHacker/UsefulScripts/blob/master/mongoDB.sh) | ✔ | ✔ | ❔ | ❔ | ❔ | ❔ | ❔ |
+| [**oh-my-zsh.sh**](https://github.com/StrawHatHacker/UsefulScripts/blob/master/Ubuntu-Debian/oh-my-zsh.sh) | ✔ | ✔ | ❔ | ❔ | ❔ | ❔ | ❔ |
+| [**mongoDB.sh**](https://github.com/StrawHatHacker/UsefulScripts/blob/master/Ubuntu-Debian/mongoDB.sh) | ✔ | ✔ | ❔ | ❔ | ❔ | ❔ | ❔ |
+| [**basic-utils.sh**](https://github.com/StrawHatHacker/UsefulScripts/blob/master/Ubuntu-Debian/basic-utils.sh) | ✔ - ❕ | ❕ - ❌ | ❔ | ❔ | ❔ | ❔ | ❔ |
 
 ## Contributors
 * [Umair](https://umair9747.github.io/) - [![a](http://i.imgur.com/wWzX9uB.png)](https://twitter.com/0x9747) [![a](http://i.imgur.com/9I6NRUm.png)](https://github.com/umair9747) 

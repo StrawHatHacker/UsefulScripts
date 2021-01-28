@@ -1,7 +1,7 @@
 #!/bin/bash
 # Install git, bpytop, nodejs LTS, npm, pm2, ranger
 
-# if bpytop throws ERROR - required 'psutil', run the commands below
+# !!! If bpytop throws ERROR - required 'psutil', run the commands below !!!
 # sudo pip3 install --upgrade pip 
 # sudo pip3 install -U setuptools 
 # sudo pip3 install psutil
@@ -9,7 +9,7 @@
 # Description
 echo -e "\e[1;31m Basic Util Installer by StrawHatHacker \e[0m"
 printf "\n"
-echo "The installation is starting , please wait for 3 to 4 minutes for the installation to complete."
+echo "The installation is starting , please wait for 4 to 5 minutes for the installation to complete."
 
 sleep 5
 

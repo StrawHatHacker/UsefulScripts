@@ -13,5 +13,10 @@ Not my fault if they break your machine <3
 | [**mongoDB.sh**](https://github.com/StrawHatHacker/UsefulScripts/blob/master/Ubuntu-Debian/mongoDB.sh) | ✔ | ✔ | ❔ | ❔ | ❔ | ❔ | ❔ |
 | [**basic-utils.sh**](https://github.com/StrawHatHacker/UsefulScripts/blob/master/Ubuntu-Debian/basic-utils.sh) | ✔ - ❕ | ❕ - ❌ | ❔ | ❔ | ❔ | ❔ | ❔ |
 
+✔ - Tested and works. <br/>
+❕ - Tested and works partially or requires further configuration from your part. <br/>
+❌- Tested and doesn't work. <br/>
+❔ - Not tested. <br/>
+
 ## Contributors
 * [Umair](https://umair9747.github.io/) - [![a](http://i.imgur.com/wWzX9uB.png)](https://twitter.com/0x9747) [![a](http://i.imgur.com/9I6NRUm.png)](https://github.com/umair9747) 

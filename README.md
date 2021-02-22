@@ -14,7 +14,7 @@ Not my fault if they break your machine <3
 | [**basic-utils.sh**](https://github.com/StrawHatHacker/UsefulScripts/blob/master/Ubuntu-Debian/basic-utils.sh) | ✔ - ❕ | ❕ - ❌ | ❔ | ❔ | ❔ | ❔ | ❔ |
 
 ✔ - Tested and works. <br/>
-❕ - Tested and works partially or requires further configuration from your part. <br/>
+❕ - Tested and works partially or requires further configuration from your part. Read notes in the file. <br/>
 ❌- Tested and doesn't work. <br/>
 ❔ - Not tested. <br/>
 

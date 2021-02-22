@@ -10,7 +10,7 @@ Not my fault if they break your machine <3
 |Script|Ubuntu 20.04, 18.04|Debian 10 & 9|CentOS 8 & 7|Linux Mint 20 & LMDE 4|OpenSUSE Tumbleweed & Leap 15.2|Kali 2020.3|Fedora 32|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [**oh-my-zsh.sh**](https://github.com/StrawHatHacker/UsefulScripts/blob/master/Ubuntu-Debian/oh-my-zsh.sh) | ✔ | ✔ | ✔ | ❔ | ❔ | ❔ | ❔ |
-| [**mongoDB.sh**](https://github.com/StrawHatHacker/UsefulScripts/blob/master/Ubuntu-Debian/mongoDB.sh) | ✔ | ✔ | ❔ | ❔ | ❔ | ❔ | ❔ |
+| [**mongoDB.sh**](https://github.com/StrawHatHacker/UsefulScripts/blob/master/Ubuntu-Debian/mongoDB.sh) | ✔ | ✔ | ✔ | ❔ | ❔ | ❔ | ❔ |
 | [**basic-utils.sh**](https://github.com/StrawHatHacker/UsefulScripts/blob/master/Ubuntu-Debian/basic-utils.sh) | ✔ - ❕ | ❕ - ❌ | ❔ | ❔ | ❔ | ❔ | ❔ |
 
 ✔ - Tested and works. <br/>

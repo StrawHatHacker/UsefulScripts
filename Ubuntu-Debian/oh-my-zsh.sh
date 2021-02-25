@@ -8,8 +8,6 @@ echo "The installation Oh-My-Zsh is starting , please wait 2 to 3 minutes"
 
 sleep 5
 
-touch log.txt
-
 # Updates the package list
 echo Updating package list...
 echo "Update for package list" > log.txt

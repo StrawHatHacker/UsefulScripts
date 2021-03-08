@@ -13,11 +13,9 @@ echo "The installation is starting , please wait for 4 to 5 minutes for the inst
 
 sleep 5
 
-touch log.txt
-
 # Updates the package list
 echo Updating package list...
-echo "Update for package list" >log.txt
+echo "Update for package list" > log.txt
 printf "\n" && printf "\n" >>log.txt
 sudo apt update >>log.txt
 

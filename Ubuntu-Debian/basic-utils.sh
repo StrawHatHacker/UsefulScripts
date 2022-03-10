@@ -42,7 +42,7 @@ printf "\n" >>log.txt
 echo "Installation of node.js LTS" >>log.txt
 printf "\n" && printf "\n" >>log.txt
 cd ~
-curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh 2>/dev/null
+curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh 2>/dev/null
 sudo bash nodesource_setup.sh 2>/dev/null
 sudo apt install nodejs -y 2>/dev/null
 node -v

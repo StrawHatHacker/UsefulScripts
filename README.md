@@ -1,3 +1,5 @@
+##### *Development of this project has been put on hold because testing is not automated and it takes way too much time to test new distros. For the versions that are listed below, the scripts should work.*
+
 ## Contribute
 * If there is a problem or they don't work on a specific system, open an issue.
 * If you want to add a new script or improve an existing one open a pull request!
